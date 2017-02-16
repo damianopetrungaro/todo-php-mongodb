@@ -1,0 +1,24 @@
+{
+  "name": "damianopetrungaro/php-mongo-todo",
+  "require": {
+    "slim/slim": "^3.7",
+    "mongodb/mongodb": "^1.1",
+    "ramsey/uuid": "^3.5",
+    "vlucas/phpdotenv": "^2.4",
+    "monolog/monolog": "^1.22",
+    "swiftmailer/swiftmailer": "^5.4",
+    "lorenzomar/zend-hydrator-utilities": "^0.1.6",
+    "zendframework/zend-hydrator": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Damianopetrungaro\\MongoTodo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Damiano Petrungaro",
+      "email": "damianopetrungaro@gmail.com"
+    }
+  ]
+}

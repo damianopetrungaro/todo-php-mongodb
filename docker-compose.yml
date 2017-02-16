@@ -1,0 +1,14 @@
+version: '2'
+services:
+  php71-mongo:
+    image: "php71-mongo"
+    ports:
+      - "80:80"
+    links:
+      - "mongo:mongo"
+    volumes:
+      - .:/var/www
+  mongo:
+    image: "mongo"
+    ports:
+      - "27017:27017"
